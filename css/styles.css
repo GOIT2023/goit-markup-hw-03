@@ -100,16 +100,15 @@ body {
   background: var(--white);
 }
 
-.container_section_one_logo{
-
+.container_section_one_logo {
 }
-  
-.container_section_one_nav{
+
+.container_section_one_nav {
   display: flex;
 }
 
-.container_section_one_address{
-display: flex;
+.container_section_one_address {
+  display: flex;
 }
 
 .section_one {
@@ -286,7 +285,7 @@ display: flex;
   text-decoration: none;
 }
 
-.container_footer_logo{
+.container_footer {
   display: inline-block;
   margin-bottom: 16px;
 }
