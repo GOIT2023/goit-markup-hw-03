@@ -80,12 +80,11 @@ body {
   align-items: center;
 }
 
-.header_main{
-  display: flex;
-  gap: 40px;
-}
+
 
 .header_main_nav{
+  display: flex;
+  gap: 40px;
   padding-top: 24px; 
   padding-bottom: 24px;
 }
