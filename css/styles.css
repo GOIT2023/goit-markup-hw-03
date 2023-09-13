@@ -257,11 +257,14 @@ display: flex;
 }
 
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background: var(--navyblue);
   flex-shrink: 0;
 }
 
 .footer_text {
+  max-width: 264px;
   color: var(--cloud);
   font-family: 'Roboto';
   font-size: 16px;
@@ -281,4 +284,9 @@ display: flex;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.conteiner_footer_logo{
+  display: inline-block;
+  margin-bottom: 16px;
 }
