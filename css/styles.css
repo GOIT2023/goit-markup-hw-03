@@ -28,8 +28,8 @@ body {
   list-style: none;
 }
 
-img{
-  display: block
+img {
+  display: block;
 }
 
 .header {
@@ -41,9 +41,9 @@ img{
   background: var(--white);
 }
 
-.container_header{
-  display: flex; 
-  width: 1158px; 
+.container_header {
+  display: flex;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -79,17 +79,15 @@ img{
   text-decoration: none;
 }
 
-.nav{
+.nav {
   display: flex;
   align-items: center;
 }
 
-
-
-.header_main_nav{
+.header_main_nav {
   display: flex;
   gap: 40px;
-  padding-top: 24px; 
+  padding-top: 24px;
   padding-bottom: 24px;
 }
 
@@ -109,7 +107,7 @@ img{
   color: var(--ocean);
 }
 
-.header_address{
+.header_address {
   display: flex;
   gap: 40px;
 }
@@ -131,7 +129,7 @@ img{
 }
 
 .section_one {
-  padding-top: 188px; 
+  padding-top: 188px;
   padding-bottom: 188px;
   flex-shrink: 0;
   background: var(--navyblue);
@@ -202,17 +200,17 @@ img{
   letter-spacing: 0.32px;
 }
 
-.container_section_two{
- 
+.container_section_two {
 }
 
-.container_section_two_text{
+.container_section_two_text {
+  list-style: none;
   display: flex;
   gap: 24px;
 }
 
-.list_section_two{
-width: calc((100%-72px) / 4 ) ;
+.list_section_two {
+  width: calc((100%-72px) / 4);
 }
 
 .section_three {
@@ -222,13 +220,13 @@ width: calc((100%-72px) / 4 ) ;
   background-color: var(--cloud);
 }
 
-.container_section_three{
-
+.container_section_three {
 }
 
-.section_three_list{
-display: flex;
-gap: 24px;
+.section_three_list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
 }
 
 .section_three_name {
@@ -247,12 +245,12 @@ gap: 24px;
 
 .team_card_list_item {
   border-radius: 0px 0px 4px 4px;
-  width: calc((100%-72px) / 4 ) ;
+  width: calc((100%-72px) / 4);
   background-color: var(--ultrawhite);
 }
 
-.section_three_h3_and_p{
-padding: 32px 0;
+.section_three_h3_and_p {
+  padding: 32px 0;
 }
 
 .team_name_card {
@@ -284,8 +282,7 @@ padding: 32px 0;
   background: #fff;
 }
 
-.container_section_four{
-
+.container_section_four {
 }
 
 .section_four_name {
@@ -302,21 +299,22 @@ padding: 32px 0;
   text-align: center;
 }
 
-.container_list_section_four{
+.container_list_section_four {
+  list-style: none;
   row-gap: 48px;
   column-gap: 24px;
   flex-wrap: wrap;
-display: flex;
+  display: flex;
 }
 
-.section_four_list{
-width: calc((100%-48px) / 3 ) ;
+.section_four_list {
+  width: calc((100%-48px) / 3);
 }
 
-.container_section_four_list{
+.container_section_four_list {
   border-top: none;
   border: 1px solid #e7e9fc;
-padding: 32px 16px;
+  padding: 32px 16px;
 }
 
 .section_four_title {
