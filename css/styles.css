@@ -84,6 +84,12 @@ img {
   align-items: center;
 }
 
+.header_main {
+  list-style: none;
+  gap: 40px;
+  display: flex;
+}
+
 .header_main_nav {
   display: flex;
   gap: 40px;
@@ -119,6 +125,7 @@ img {
 }
 
 .navigation {
+  padding: 24px 0;
   color: var(--navyblue);
   font-family: 'Roboto';
   font-size: 16px;
